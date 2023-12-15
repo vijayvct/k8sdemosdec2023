@@ -25,10 +25,4 @@ spec:
           requests: {}
         ports:
         - containerPort: 8080
-        readinessProbe:
-         httpGet:
-           port: 8080
-           path: /
-           initialDelayseconds: 5
-           periodSeconds: 5
-           successThreshold: 1
+        
