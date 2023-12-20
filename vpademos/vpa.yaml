@@ -1,5 +1,5 @@
 apiVersion: "autoscaling.k8s.io/v1"
-kind: VirtualPodAutoScaler
+kind: VerticalPodAutoScaler
 metadata:
  name: webapp-vpa
 spec:
